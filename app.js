@@ -1,6 +1,6 @@
 require("express-async-errors");
 const express = require("express");
-const cors = require("cors"); // before deploying, check pdf
+const cors = require("cors"); // , check pdf
 const errorHandler = require("./handlers/errorHandler");
 const mongoose = require("mongoose");
 const userRoutes = require("./modules/users/users.routes");

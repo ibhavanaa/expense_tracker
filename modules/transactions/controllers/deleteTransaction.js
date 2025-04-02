@@ -39,7 +39,7 @@ const deleteTransaction = async (req, res) => {
       }
     );
   } else {
-    // expense logic here, add to the user balance
+    // expense logic, add to the user balance
 
     await usersModel.updateOne(
       {

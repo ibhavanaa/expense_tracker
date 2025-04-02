@@ -1,6 +1,6 @@
 const express = require("express"); //1
 
-const auth = require("../../middleware/auth"); //1
+const auth = require("../../middleware/auth"); 
 const addIncome = require("./controllers/addIncome"); //2
 const addExpense = require("./controllers/addExpense");
 const getTransactions = require("./controllers/getTransactions");

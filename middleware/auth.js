@@ -23,12 +23,12 @@ const auth = (req, res, next) => {
 
     //7
   } catch (e) {
-    //401 is unauthorized
+   
     res.status(401).json({
       status: "failed",
       message: "Unauthorized!",
     });
-    return; // important sinon will continue code of after catch
+    return; 
   }
   //3 This will stop the code from reaching the next route
   //throw "Won't let you reach the next route, interrputing with auth middlware";

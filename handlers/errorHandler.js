@@ -1,4 +1,4 @@
-const errorHandler = (error, req, res, next) => {
+const errorHandler = (error, res, next) => {
   if (error) {
     if (error.message) {
       res.status(400).json({
